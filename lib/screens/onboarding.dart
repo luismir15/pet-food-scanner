@@ -3,6 +3,7 @@ import 'package:flutter_svg/svg.dart';
 import 'package:pet_food_scanner/helper/color_sys.dart';
 import 'package:pet_food_scanner/helper/strings.dart';
 import 'package:pet_food_scanner/screens/signin.dart';
+import 'package:pet_food_scanner/screens/camera.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class Onboarding extends StatefulWidget {
@@ -49,7 +50,8 @@ class _OnboardingState extends State<Onboarding> {
               onPressed: () {
                 _storeOnboardInfo();
                 Navigator.pushReplacement(context,
-                    MaterialPageRoute(builder: (context) => const SignIn()));
+                    //TODO: change to Singin ()
+                    MaterialPageRoute(builder: (context) => const Camera())); 
               },
               child: Text(
                 text,

@@ -47,5 +47,9 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+	<key>NSCameraUsageDescription</key>
+	<string>The camera will be used to scan pet products</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>This won't be used, if I don't add it flutter and ios get's mad</string>
 </dict>
 </plist>

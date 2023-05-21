@@ -1,23 +1,49 @@
 PODS:
+  - barcode_scanner (1.0.0):
+    - Flutter
+    - ScanbotBarcodeScannerSDK (= 3.2.3)
+  - camera_avfoundation (0.0.1):
+    - Flutter
   - Flutter (1.0.0)
+  - path_provider_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - ScanbotBarcodeScannerSDK (3.2.3)
   - shared_preferences_foundation (0.0.1):
     - Flutter
     - FlutterMacOS
 
 DEPENDENCIES:
+  - barcode_scanner (from `.symlinks/plugins/barcode_scanner/ios`)
+  - camera_avfoundation (from `.symlinks/plugins/camera_avfoundation/ios`)
   - Flutter (from `Flutter`)
+  - path_provider_foundation (from `.symlinks/plugins/path_provider_foundation/darwin`)
   - shared_preferences_foundation (from `.symlinks/plugins/shared_preferences_foundation/darwin`)
 
+SPEC REPOS:
+  trunk:
+    - ScanbotBarcodeScannerSDK
+
 EXTERNAL SOURCES:
+  barcode_scanner:
+    :path: ".symlinks/plugins/barcode_scanner/ios"
+  camera_avfoundation:
+    :path: ".symlinks/plugins/camera_avfoundation/ios"
   Flutter:
     :path: Flutter
+  path_provider_foundation:
+    :path: ".symlinks/plugins/path_provider_foundation/darwin"
   shared_preferences_foundation:
     :path: ".symlinks/plugins/shared_preferences_foundation/darwin"
 
 SPEC CHECKSUMS:
+  barcode_scanner: 317289ea35d6d81b9e5fc026f2fe14362b732954
+  camera_avfoundation: 3125e8cd1a4387f6f31c6c63abb8a55892a9eeeb
   Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  path_provider_foundation: eaf5b3e458fc0e5fbb9940fb09980e853fe058b8
+  ScanbotBarcodeScannerSDK: 81c3321db77db392537a5190df454a889d165fca
   shared_preferences_foundation: e2dae3258e06f44cc55f49d42024fd8dd03c590c
 
-PODFILE CHECKSUM: 70d9d25280d0dd177a5f637cdb0f0b0b12c6a189
+PODFILE CHECKSUM: 9c46fd01abff66081b39f5fa5767b3f1d0b11d76
 
-COCOAPODS: 1.12.0
+COCOAPODS: 1.12.1
