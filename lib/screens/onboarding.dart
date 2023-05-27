@@ -2,8 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:pet_food_scanner/helper/color_sys.dart';
 import 'package:pet_food_scanner/helper/strings.dart';
-import 'package:pet_food_scanner/screens/signin.dart';
-import 'package:pet_food_scanner/screens/camera.dart';
+import 'package:pet_food_scanner/screens/signin/signin.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class Onboarding extends StatefulWidget {
@@ -49,9 +48,10 @@ class _OnboardingState extends State<Onboarding> {
             child: TextButton(
               onPressed: () {
                 _storeOnboardInfo();
-                Navigator.pushReplacement(context,
+                Navigator.pushReplacement(
+                    context,
                     //TODO: change to Singin ()
-                    MaterialPageRoute(builder: (context) => const Camera())); 
+                    MaterialPageRoute(builder: (context) => const Camera()));
               },
               child: Text(
                 text,
