@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:pet_food_scanner/screens/onboarding.dart';
-import 'package:pet_food_scanner/screens/signin.dart';
+import 'package:pet_food_scanner/screens/signin/signin.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 void main() async {

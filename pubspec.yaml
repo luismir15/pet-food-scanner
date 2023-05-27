@@ -36,6 +36,7 @@ dependencies:
   cupertino_icons: ^1.0.2
   shared_preferences: ^2.0.5
   flutter_svg: ^2.0.4
+  lottie: ^2.3.2
 
 dev_dependencies:
   flutter_test:
@@ -63,6 +64,9 @@ flutter:
     - assets/images/step-one.svg
     - assets/images/step-two.svg
     - assets/images/step-three.svg
+    - assets/images/logo.svg
+    - assets/images/sausage.svg
+    - assets/images/login_animation.json
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
